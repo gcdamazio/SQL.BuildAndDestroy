@@ -1,6 +1,6 @@
 mysql> CREATE TABLE Users ( UserID INTEGER,
-    -> LastName VAR CHAR(255),
-    -> FirstName VAR CHAR(255),
-    -> Address VAR CHAR(255),
-    -> City VAR CHAR(255)
+    -> LastName VARCHAR(255),
+    -> FirstName VARCHAR(255),
+    -> Address VARCHAR(255),
+    -> City VARCHAR(255)
     -> );
